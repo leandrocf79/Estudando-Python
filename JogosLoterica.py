@@ -37,7 +37,7 @@ while True:
             sorteio4 = []
             sorteio5 = []
             while quant1 < 10:
-                Sorteado = random.randint(00, 99)
+                Sorteado = random.randint(1, 100)
                 if Sorteado in sorteio1:
                     continue
                 else:
@@ -46,7 +46,7 @@ while True:
             sorteio1.sort()
 
             while quant2 < 10:
-                Sorteado = random.randint(00, 99)
+                Sorteado = random.randint(1, 100)
                 if Sorteado in sorteio1:
                     continue
                 elif Sorteado in sorteio2:
@@ -57,7 +57,7 @@ while True:
             sorteio2.sort()
 
             while quant3 < 10:
-                Sorteado = random.randint(00, 99)
+                Sorteado = random.randint(1, 100)
                 if Sorteado in sorteio1:
                     continue
                 elif Sorteado in sorteio2:
@@ -70,7 +70,7 @@ while True:
             sorteio3.sort()
 
             while quant4 < 10:
-                Sorteado = random.randint(00, 99)
+                Sorteado = random.randint(1, 100)
                 if Sorteado in sorteio1:
                     continue
                 elif Sorteado in sorteio2:
@@ -85,7 +85,7 @@ while True:
             sorteio4.sort()
 
             while quant5 < 10:
-                Sorteado = random.randint(00, 99)
+                Sorteado = random.randint(1, 100)
                 if Sorteado in sorteio1:
                     continue
                 elif Sorteado in sorteio2:
