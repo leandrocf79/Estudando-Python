@@ -9,7 +9,7 @@ hello = Label( master = root, image=photo, width=500, height=370)
 imagem =Label (master = root, image = photo)
 imagem.pack(side=TOP) # local onde deve ser inserida a imagem
 
-texto = Label(master=root, font= ("Cooper Black", 18), text = "Olá pessoal!")
+texto = Label(master=root, font= ("Cooper Black", 18), text = "Olá pessoal!") # Label adiciona texto
 # hello = Label( master = root, text= "Olá pessoal!")
 # hello.pack()
 texto.pack(side = BOTTOM)
