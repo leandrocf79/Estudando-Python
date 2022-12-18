@@ -70,6 +70,8 @@ numeros_proximos = numeros_mais_sorteados[:50]
 print(numeros_proximos)
   
   
-  
+  numeros_proximos = sorted(numeros_mais_sorteados[:50])
+
+print(numeros_proximos)
   
   
